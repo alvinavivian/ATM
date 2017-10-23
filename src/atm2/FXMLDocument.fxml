@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="461.0" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="atm2.FXMLDocumentController">
+    <children>
+        <Button fx:id="button1" layoutX="82.0" layoutY="216.0" onAction="#satu" prefHeight="36.0" prefWidth="38.0" text="1" />
+      <Button fx:id="button2" layoutX="144.0" layoutY="216.0" onAction="#dua" prefHeight="36.0" prefWidth="38.0" text="2" />
+      <Button fx:id="button3" layoutX="207.0" layoutY="216.0" onAction="#tiga" prefHeight="36.0" prefWidth="38.0" text="3" />
+      <Button fx:id="button4" layoutX="82.0" layoutY="264.0" onAction="#empat" prefHeight="36.0" prefWidth="38.0" text="4" />
+      <Button fx:id="button5" layoutX="144.0" layoutY="264.0" onAction="#lima" prefHeight="36.0" prefWidth="38.0" text="5" />
+      <Button fx:id="button6" layoutX="207.0" layoutY="264.0" onAction="#enam" prefHeight="36.0" prefWidth="38.0" text="6" />
+      <Button fx:id="button7" layoutX="82.0" layoutY="311.0" onAction="#tujuh" prefHeight="36.0" prefWidth="38.0" text="7" />
+      <Button fx:id="button8" layoutX="144.0" layoutY="311.0" onAction="#delapan" prefHeight="36.0" prefWidth="38.0" text="8" />
+      <Button fx:id="button9" layoutX="207.0" layoutY="311.0" onAction="#sembilan" prefHeight="36.0" prefWidth="38.0" text="9" />
+      <Button fx:id="hapus" layoutX="82.0" layoutY="357.0" onAction="#hapus" prefHeight="36.0" prefWidth="38.0" text="C" />
+      <Button fx:id="button0" layoutX="144.0" layoutY="357.0" onAction="#nol" prefHeight="36.0" prefWidth="38.0" text="0" />
+      <Button fx:id="buttonOK" layoutX="207.0" layoutY="357.0" onAction="#ok" prefHeight="36.0" prefWidth="38.0" text="OK" />
+      <PasswordField fx:id="editPin" alignment="CENTER" layoutX="70.0" layoutY="155.0" prefHeight="36.0" prefWidth="180.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1e4161" height="200.0" layoutX="-40.0" layoutY="-93.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="371.0" />
+      <Label layoutX="125.0" layoutY="122.0" text="Entry PIN" textFill="#2f2525">
+         <font>
+            <Font name="GothamRounded-Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="31.0" text="Welcome To" textFill="WHITE">
+         <font>
+            <Font name="GothamRounded-Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="49.0" text="MOKLET e-Banking" textFill="#ff3333">
+         <font>
+            <Font name="GothamRounded-Bold" size="27.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
